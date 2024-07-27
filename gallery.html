@@ -1,0 +1,358 @@
+<html>
+<head>
+        <title>GAVAC | Gallery </title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+        <link rel="stylesheet" href="/Users/chris_keyyzz/Desktop/UrbanFoundation/css/all.css">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="assets/images/logoooo.jpeg">
+    </head>
+
+    <body>
+    <section id="banner">
+        <img src="./assets/images/logo.png" alt="logo">
+        <div class="banner-text">
+            <h1>GLOBAL AFRICAN VILLAGE ALLIANCE CARE </h1>
+            <p>"To be the leading Child-serving organization where all children are <br>
+                thriving with endless possibilities in Liberia"</p>
+            <div class="banner-btn">
+                <a href="donate.html"><span></span>Donate Now</a>
+                <a href="#footer"><span></span>Contact US</a>
+            </div>
+        </div>
+    </section>
+
+<div id="sideNav">
+    <nav>
+    <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="#footer"><span></span>Contact US</a> </li>
+       
+        <li><a href="donate.html">Donate Now</a></li>
+    </ul>
+    </nav>
+</div>
+
+<div id="menuBtn">
+    <img src="./assets/images/menu.png" id="menu">
+</div>
+
+
+<!---Image Gallery CSS-->
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+
+
+
+
+
+
+<div style="text-align:center">
+  <h2>GAVAC Kids Gallery</h2>
+  <p>Please Kindly Donate To Us Through The Donate Now Button Above</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="assets/images/kid6.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid9.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid1.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid12.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img src="assets/images/kid2.jpeg" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid3.jpeg" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid4.jpeg" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid5.png" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="assets/images/kid7.jpeg" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid8.png" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid10.jpeg" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid11.png" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="assets/images/kid13.jpeg" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid14.jpeg" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid15.jpeg" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid16.jpeg" alt="Foundation Visit" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img src="assets/images/kid17.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid18.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid19.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid20.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img src="assets/images/kid21.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid22.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/kid23.jpeg" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/images/ceo  board.png" alt="Foundation Visit"  style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+
+
+
+
+
+
+
+<!---Image Gallery JS-->
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+
+
+
+
+<!---footer-->
+
+<section id="footer">
+<div class="title-text">
+<p>Contact</p>
+<h1>We Need Your Help!</h1>
+</div>
+    <div class="footer-row">
+    <div class="footer-left">
+        <h1>Where Are we Located?</h1>
+        <p> Liberia Business Association Center, ELWA Junction, <br> Paynesville, Monrovia, Liberia
+            <i class="fa-solid fa-location-dot"></i>
+          </p>
+
+
+                    <h3 class="text-main">Social Media</h3>
+
+                    <a href="https://www.facebook.com/profile.php?id=61556678068530" class="fa fa-facebook"></a>
+                    
+
+                    <a href="https://wa.me/+233207584173 " class="fa fa-whatsapp"></a>
+
+                    <a href="" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+
+
+
+    </div>
+
+
+
+<div class="footer-right">
+    <h1>Contact Information</h1>
+    <p>groupofngosinc2024@gmail.com, <br> gayeteekonahkr@gmail.com
+        <i class="fa-solid fa-envelope"></i></p>
+
+        <p>+233 20 758 4173, +231880965176,<br>  WhatsApp & Call: +231777028983
+
+        
+            <i class="fa-solid fa-phone"></i></p>
+    <p>Please feel free to 
+        reach out with any concerns or suggestions.</p>
+
+</div>
+</div>
+<div class="right">
+    © Global African Village Alliance Care , All Right Reserved @2024.
+</div>
+
+</section>
+
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "./assets/images/close.png";
+        }
+        else{
+            sideNav.style.right = "-250px";
+            menu.src = "./assets/images/menu.png";
+        }
+    }
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+});
+    
+</script>
+
+
+
+
+
+<video autoplay loop muted plays-inline class="back-video">
+    <source src="./assets/images/IMG_1186.mp4" type="video/mp4"> 
+</video>
+</body>
+</html>
